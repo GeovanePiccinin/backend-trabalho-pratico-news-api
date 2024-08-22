@@ -1,0 +1,133 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "news-api",
+    "collectionId": "489f27ad-bd15-4107-966b-03caa4d274e6",
+    "dateExported": "2024-08-22T20:25:00.313Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b443a151-7729-42a8-9273-00c83309b82a",
+            "colId": "489f27ad-bd15-4107-966b-03caa4d274e6",
+            "containerId": "",
+            "name": "everything - default (q=javascript)",
+            "url": "http://localhost:3001/everything",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-22T14:22:43.922Z",
+            "modified": "2024-08-22T14:22:43.922Z",
+            "headers": []
+        },
+        {
+            "_id": "7bc5af17-d4c2-4d56-ac3f-2252766f0153",
+            "colId": "489f27ad-bd15-4107-966b-03caa4d274e6",
+            "containerId": "",
+            "name": "everything-dummy",
+            "url": "http://localhost:3001/everything-dummy?q=javascript",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-22T14:22:57.301Z",
+            "modified": "2024-08-22T20:23:10.340Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "q",
+                    "value": "javascript",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "818ec847-45e7-4503-b109-b1a2747522e6",
+            "colId": "489f27ad-bd15-4107-966b-03caa4d274e6",
+            "containerId": "",
+            "name": "everything - param - q",
+            "url": "http://localhost:3001/everything?q=docker",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-08-22T14:23:09.569Z",
+            "modified": "2024-08-22T14:23:09.569Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "q",
+                    "value": "docker",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "066119d9-65fd-42fe-b7ed-947c94c29c82",
+            "colId": "489f27ad-bd15-4107-966b-03caa4d274e6",
+            "containerId": "",
+            "name": "top-headlines-dummy",
+            "url": "http://localhost:3001/top-headlines-dummy?country=br&category=technology",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-08-22T14:24:21.825Z",
+            "modified": "2024-08-22T20:24:06.588Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "country",
+                    "value": "br",
+                    "isPath": false
+                },
+                {
+                    "name": "category",
+                    "value": "technology",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "733490e8-4226-4617-b0a7-3708980bc15e",
+            "colId": "489f27ad-bd15-4107-966b-03caa4d274e6",
+            "containerId": "",
+            "name": "top-headlines - params - country, category",
+            "url": "http://localhost:3001/top-headlines?country=us&category=sports",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-08-22T14:23:17.945Z",
+            "modified": "2024-08-22T14:23:17.945Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "country",
+                    "value": "us",
+                    "isPath": false
+                },
+                {
+                    "name": "category",
+                    "value": "sports",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "7b297717-493c-41d8-8a5e-dc73087f2eb8",
+            "colId": "489f27ad-bd15-4107-966b-03caa4d274e6",
+            "containerId": "",
+            "name": "top-headlines - params - country, category",
+            "url": "http://localhost:3001/top-headlines?country=us&category=sports",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-08-22T14:24:55.184Z",
+            "modified": "2024-08-22T14:24:55.184Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "country",
+                    "value": "us",
+                    "isPath": false
+                },
+                {
+                    "name": "category",
+                    "value": "sports",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "H_oiKNvwSEAOOmpW3chcvQNMljC4dQuozYOHlzYBzIRfOp1vsUcT92GyMzaiGMbfQerawKERe7aMMdTrA8VJ1w"
+}
